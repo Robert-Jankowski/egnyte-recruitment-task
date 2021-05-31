@@ -175,6 +175,5 @@ pipe(makeZeroRequest,
     consoleLog,
     makeNinthRequest,
     consoleLog,
-    makeTenthRequest,
-    consoleLog
+    makeTenthRequest
     ).catch(error => console.log({error}))
