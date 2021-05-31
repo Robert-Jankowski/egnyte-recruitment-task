@@ -131,7 +131,8 @@ const makeNinthRequest = async ({url, method, token}) => {
     })
     return axios({url, method:"POST", data: {result: keys}, headers: {Authorization: `Bearer ${token}`}})
         .then(({data}) => ({
-            ...data
+            ...data,
+            token
         }))
 }
 
