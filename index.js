@@ -146,7 +146,7 @@ const makeTenthRequest = async ({url, method, token}) => {
 
 const consoleLog = x => {
     console.log()
-    console.log({["task_" + x.url.split("intern-task/")[1]]:x})
+    console.log(x)
 
     return Promise.resolve(x)
 }
