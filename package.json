@@ -1,0 +1,16 @@
+{
+  "name": "egnyte-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Robert Jankowski",
+    "url": "https://github.com/Robert-Jankowski/"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
